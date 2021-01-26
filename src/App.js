@@ -23,7 +23,12 @@ export default function App() {
       createMuiTheme({
         palette: {
           type: prefersDarkMode ? 'dark' : 'light',
-          primary: blue,
+          primary: {
+            main: '#015ff4',
+          },
+          secondary: {
+            main: '#000d22',
+          },
         },
       }),
     [prefersDarkMode],

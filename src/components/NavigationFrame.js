@@ -24,6 +24,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import AddAccountDialog from './AddAccountDialog';
 import DeleteAccountDialog from './DeleteAccountDialog';
 import AddHardwareWalletDialog from './AddHarwareWalletDialog';
+import Footer from './layout/footer';
 
 const useStyles = makeStyles((theme) => ({
   content: {
@@ -276,6 +277,7 @@ const useFooterStyles = makeStyles((theme) => ({
   },
 }));
 
+/*
 function Footer() {
   const classes = useFooterStyles();
   return (
@@ -294,3 +296,4 @@ function Footer() {
     </footer>
   );
 }
+*/
